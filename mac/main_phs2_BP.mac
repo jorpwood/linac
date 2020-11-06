@@ -23,7 +23,7 @@
 # GEOMETRY
 # =====================================================
 
-/gate/geometry/setMaterialDatabase /home/jo17631/linac/data/GateMaterials.db
+/gate/geometry/setMaterialDatabase /home/jo17631/linac/data/{matFile}
 
 # WORLD
 /gate/world/setMaterial            {material}
