@@ -23,7 +23,7 @@
 # GEOMETRY
 # =====================================================
 
-/gate/geometry/setMaterialDatabase /home/jo17631/linac/data/GateMaterials.db
+/gate/geometry/setMaterialDatabase /home/jo17631/linac/data/{matFile}
 
 # WORLD
 /gate/world/setMaterial            {material}
@@ -59,7 +59,7 @@
 /gate/linac/vis/setVisible               1
 
 
-# /gate/geometry/setMaterialDatabase data/PreciseMaterials.db
+# /gate/geometry/setMaterialDatabase /home/jo17631/linac/data/PreciseMaterials.db
 # /control/execute mac/linac_head.mac
 
 /gate/linac/daughters/name               PhS_Plane
